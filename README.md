@@ -21,17 +21,15 @@ The application utilizes Django's built-in admin panel for administrative tasks.
 Admin users have elevated privileges allowing them to perform CRUD operations on all blog posts.
 They can create new posts, edit existing ones, and delete posts as necessary, offering full control over the blog content.
 
-5.Technology Stack:
+5. Technology Stack:
 The project is built using Django, a high-level Python web framework, for backend development.
 Django provides built-in features for user authentication, database management, and admin panel creation, facilitating rapid development.
 For the frontend, HTML, CSS, and possibly JavaScript are used to design the user interface and interact with the backend functionalities.
 
 
-
 Quick Start:
 
 To get this project up and running locally on your computer follow the following steps.
-
 Set up a python virtual environment
 Run the following commands
 

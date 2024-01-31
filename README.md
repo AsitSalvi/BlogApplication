@@ -1,2 +1,3 @@
 # BlogApplication
-Blog Application to CRUD
+Blog Application to CRUD Operations
+

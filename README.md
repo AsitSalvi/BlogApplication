@@ -1,4 +1,4 @@
-# BlogApplication
+# Blog Application
 Develop a simple blog application using Django that allows users to read and create blog posts.
 
 Basic Features of The App:-
@@ -29,6 +29,7 @@ For the frontend, HTML, CSS, and possibly JavaScript are used to design the user
 
 
 Quick Start:
+
 To get this project up and running locally on your computer follow the following steps.
 
 Set up a python virtual environment

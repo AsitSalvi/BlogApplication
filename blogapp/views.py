@@ -49,13 +49,6 @@ def logout(request):
     return redirect('login')
 
 
-def restricted(request):
-    if not request.user.is_authenticated:
-        return HttpResponseForbidden("You don't have access to this page.")
-    else:
-        return render(request, 'restricted.html')
-
-
 #-----------------------Blog Post CRUD--------------------------------------------------------
 def home(request):
     posts = Post.objects.filter(user=request.user).order_by('-created_at')

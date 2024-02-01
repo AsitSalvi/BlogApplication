@@ -28,9 +28,6 @@ class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
     phone = models.IntegerField(unique=True)
-    is_business = models.BooleanField(default=False)
-    is_nhai = models.BooleanField(default=False)
-    is_driver = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
 
